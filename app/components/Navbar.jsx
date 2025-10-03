@@ -43,7 +43,7 @@ const Navbar = () => {
           </button>
           {
             isOpen && (
-              <div className='transition-all duration-300 ease-in-out absolute top-16 left-0 w-full bg-white dark:bg-background-dark md:hidden'>
+              <div className='transition-all duration-300 ease-in-out absolute top-16 left-0 w-full bg-gray-50 md:hidden'>
             <nav className="items-center gap-8 flex flex-col py-4">
             <a className="text-sm font-medium hover:text-primary transition-colors" href="/">Home</a>
             <a className="text-sm font-medium hover:text-primary transition-colors" href="/about">About</a>

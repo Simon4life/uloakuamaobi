@@ -108,8 +108,8 @@ export default function ContactPage() {
                     <span className="h-6 w-6 text-[#3b82f6]">📧</span>
                     <div>
                       <h4 className="font-semibold text-gray-800 dark:text-gray-200">Email</h4>
-                      <a href="mailto:contact@novelverse.com" className="text-[#3b82f6] hover:underline">
-                        contact@.com
+                      <a href="mailto:contact@.com" className="text-[#3b82f6] hover:underline">
+                        uloakuamaobi@info.com
                       </a>
                     </div>
                   </div>
@@ -119,7 +119,7 @@ export default function ContactPage() {
                     <div>
                       <h4 className="font-semibold text-gray-800 dark:text-gray-200">Phone (Press Only)</h4>
                       <a href="tel:+1234567890" className="text-[#3b82f6] hover:underline">
-                        +1 (234) 567-890
+                         (+234) 806-941-4351
                       </a>
                     </div>
                   </div>
