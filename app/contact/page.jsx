@@ -4,7 +4,7 @@ import React from "react";
 
 export default function ContactPage() {
   return (
-    <div className="relative flex min-h-screen w-full flex-col bg-background-light dark:bg-background-dark font-sans text-gray-800 dark:text-gray-200">
+    <div className="relative flex min-h-screen w-full flex-col bg-gray-50 font-sans text-gray-800 dark:text-gray-200">
       {/* Main */}
       <main className="flex-grow">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 sm:py-24">

@@ -5,7 +5,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-10 w-full bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm shadow-sm">
+    <header className="sticky top-0 z-10 w-full bg-gray-50 backdrop-blur-sm shadow-sm">
         <div className="container mx-auto flex items-center justify-between px-4 py-3 md:px-6">
           <div className="flex items-center gap-3">
             <svg

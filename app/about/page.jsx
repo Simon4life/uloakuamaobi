@@ -4,7 +4,7 @@ export default function Home() {
 
       
       {/* Main */}
-      <main className="flex-grow">
+      <main className="bg-gray-50 flex-grow">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
           {/* Author profile */}
           <div className="flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-12">
@@ -25,7 +25,7 @@ export default function Home() {
 
             <div className="text-center md:text-left">
               <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white">
-                Sophia Bennett
+                Uloaku Amaobi
               </h2>
               <p className="mt-2 text-lg text-primary">
                 Author of 'The Helper'

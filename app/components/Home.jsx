@@ -3,7 +3,7 @@
 
 export default function Home() {
   return (
-    <div className="bg-background-light dark:bg-background-dark font-display text-slate-800 dark:text-slate-200 flex min-h-screen flex-col">
+    <div className="bg-gray-50 font-display text-slate-800 dark:text-slate-200 flex min-h-screen flex-col">
 
       {/* Main */}
       <main className="flex-grow">
