@@ -45,9 +45,10 @@ const Navbar = () => {
             isOpen && (
               <div className='transition-all duration-300 ease-in-out absolute top-16 left-0 w-full bg-gray-50 md:hidden'>
             <nav className="items-center gap-8 flex flex-col py-4">
-            <a className="text-sm font-medium hover:text-primary transition-colors" href="/">Home</a>
-            <a className="text-sm font-medium hover:text-primary transition-colors" href="/about">About</a>
-            <a className="text-sm font-medium hover:text-primary transition-colors" href="/contact">Contact</a>
+            <a className="text-sm font-medium hover:text-primary text-slate-900 transition-colors" href="/">Home</a>
+            <a className="text-sm font-medium hover:text-primary text-slate-900 transition-colors" href="/about">About</a>
+            <a className="text-sm font-medium hover:text-primary text-slate-900 transition-colors" href="/contact">Contact</a>
+            <a className="text-sm bg-[#3b82f6] font-medium hover:text-primary text-slate-900 transition-colors" href="/contact">Order Now</a>
           </nav>
           </div>
             )
