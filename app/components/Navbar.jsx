@@ -48,7 +48,7 @@ const Navbar = () => {
             <a className="text-sm font-medium hover:text-primary text-slate-900 transition-colors" href="/">Home</a>
             <a className="text-sm font-medium hover:text-primary text-slate-900 transition-colors" href="/about">About</a>
             <a className="text-sm font-medium hover:text-primary text-slate-900 transition-colors" href="/contact">Contact</a>
-            <a className="text-sm bg-[#3b82f6] font-medium hover:text-primary text-slate-900 transition-colors" href="/contact">Order Now</a>
+            <a className="text-sm p-4 rounded-lg bg-[#3b82f6] font-medium hover:text-primary text-white transition-colors" href="/contact">Order Now</a>
           </nav>
           </div>
             )
