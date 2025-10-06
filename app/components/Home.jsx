@@ -29,17 +29,14 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="flex justify-center md:justify-start">
-                  <button className="flex min-w-[84px] items-center justify-center rounded-lg h-12 px-6 bg-primary text-base font-bold  shadow-lg transition-transform hover:scale-105">
-                    <span className="truncate">Pre-order the Book</span>
-                  </button>
+                  <a href="/order" className="flex min-w-[84px] items-center justify-center rounded-lg h-12 px-6 bg-primary text-base font-bold  shadow-lg transition-transform hover:scale-105">
+                    <span className="truncate">order the Book</span>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
         </section>
-
-        {/* Author Section */}
-        
       </main>
 
     </div>

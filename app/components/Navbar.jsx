@@ -31,9 +31,9 @@ const Navbar = () => {
             <a className="text-sm font-medium hover:text-primary transition-colors" href="/contact">Contact</a>
           </nav>
 
-          <button className="hidden md:flex min-w-[84px] items-center justify-center rounded-lg bg-[#3b82f6] h-10 px-5 text-sm font-bold text-white shadow-md transition-transform hover:scale-105">
+          <a href='/order' className="hidden md:flex min-w-[84px] items-center justify-center rounded-lg bg-[#3b82f6] h-10 px-5 text-sm font-bold text-white shadow-md transition-transform hover:scale-105">
             <span className="truncate">Order Now</span>
-          </button>
+          </a>
 
           {/* Mobile Menu Icon */}
           <button onClick={() => setIsOpen(!isOpen)} className="md:hidden cursor-pointer text-slate-900 dark:text-white">
