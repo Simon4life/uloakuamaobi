@@ -6,17 +6,17 @@ const page = () => {
     let [quantity, setQuantity] = useState(1);
 
   return (
-    <div className="bg-gray-50 font-display text-slate-800 dark:text-slate-200 flex min-h-screen flex-col">
+    <div className="bg-gray-50 font-display text-slate-800 flex min-h-screen flex-col">
 
       {/* Main */}
       <main className="flex-grow">
 
          <div className="flex mt-12 justify-center flex-col text-center">
                 <div className="flex flex-col gap-3">
-                  <h1 className="text-4xl font-extrabold tracking-tight text-slate-900 dark:text-white sm:text-5xl lg:text-6xl">
+                  <h1 className="text-4xl font-extrabold tracking-tight text-slate-900 sm:text-5xl lg:text-6xl">
                     The Helper
                   </h1>
-                  <p className="text-lg leading-relaxed text-slate-600 dark:text-slate-300">
+                  <p className="text-lg leading-relaxed text-slate-600">
                     In this book, you will discover how to let God into your life to help you in your journey of life.
                   </p>
                 </div>
@@ -40,28 +40,28 @@ const page = () => {
               </div>
               
         <main className="flex-grow container mx-auto px-4 sm:px-6 lg:px-8 py-12">
-            <div className="max-w-lg mx-auto bg-white dark:bg-slate-900 rounded-lg shadow-lg p-8">
+            <div className="max-w-lg mx-auto bg-white rounded-lg shadow-lg p-8">
             <div className="text-center mb-8">
-                <h1 className="text-3xl font-bold text-slate-900 dark:text-white">
+                <h1 className="text-3xl font-bold text-slate-900">
                 Secure Order Form
                 </h1>
-                <p className="text-slate-500 dark:text-slate-400 mt-2">
+                <p className="text-slate-500 mt-2">
                 Complete your purchase for "The Helper"
                 </p>
             </div>
 
             <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
                 {/* Full Name */}
-                <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1" for="quantity">Quantity</label>
+                <label className="block text-sm font-medium text-gray-700 mb-1" for="quantity">Quantity</label>
                 <div className="flex items-center">
-                    <button className="px-3 py-2 rounded-l bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600" onClick={() => setQuantity(quantity-=1)} type="button">-</button>
-                    <input className="w-16 text-center form-input border-y border-x-0 bg-background-light dark:bg-background-dark border-gray-300 dark:border-gray-600 focus:ring-primary focus:border-primary" id="quantity" min="1" name="quantity" type="number" value={quantity}/>
-                    <button onClick={() => setQuantity(quantity+=1)} className="px-3 py-2 rounded-r bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600" type="button">+</button>
+                    <button className="px-3 py-2 rounded-l bg-gray-200 hover:bg-gray-300" onClick={() => setQuantity(quantity-=1)} type="button">-</button>
+                    <input className="w-16 text-center form-input border-y border-x-0 border-gray-300 focus:ring-primary focus:border-primary" id="quantity" min="1" name="quantity" type="number" value={quantity}/>
+                    <button onClick={() => setQuantity(quantity+=1)} className="px-3 py-2 rounded-r bg-gray-200 dark:bg-gray-700 hover:bg-gray-300" type="button">+</button>
                 </div>
                 <div>
                 <label
                     htmlFor="full-name"
-                    className="block text-sm font-medium text-slate-700 dark:text-slate-300"
+                    className="block text-sm font-medium text-slate-700"
                 >
                     Full Name
                 </label>
@@ -70,7 +70,7 @@ const page = () => {
                     name="full-name"
                     type="text"
                     placeholder="Jane Doe"
-                    className="form-input block w-full rounded border-gray-300 dark:border-slate-700 bg-background-light focus:ring-primary focus:border-primary mt-1"
+                    className="form-input block w-full rounded border-gray-300-700 focus:ring-primary focus:border-primary mt-1"
                 />
                 </div>
 
@@ -78,7 +78,7 @@ const page = () => {
                 <div>
                 <label
                     htmlFor="shipping-address"
-                    className="block text-sm font-medium text-slate-700 dark:text-slate-300"
+                    className="block text-sm font-medium text-slate-700"
                 >
                     Shipping Address
                 </label>
@@ -87,14 +87,14 @@ const page = () => {
                     name="shipping-address"
                     type="text"
                     placeholder="123 Bookworm Lane"
-                    className="form-input block w-full rounded-lg border-slate-300 dark:border-slate-700 bg-background-light dark:bg-background-dark focus:ring-primary focus:border-primary mt-1"
+                    className="form-input block w-full rounded-lg border-slate-300 bg-background-light dark:bg-background-dark focus:ring-primary focus:border-primary mt-1"
                 />
                 </div>
                 {/* Phone Number  */}
                 <div>
                 <label
                     htmlFor="phone-number"
-                    className="block text-sm font-medium text-slate-700 dark:text-slate-300"
+                    className="block text-sm font-medium text-slate-700"
                 >
                     Phone Number
                 </label>
@@ -103,7 +103,7 @@ const page = () => {
                     name="phone-number"
                     type="text"
                     placeholder="+234 801 234 5678"
-                    className="form-input block w-full rounded-lg border-slate-300 dark:border-slate-700 bg-background-light dark:bg-background-dark focus:ring-primary focus:border-primary mt-1"
+                    className="form-input block w-full rounded-lg border-slate-300 focus:ring-primary focus:border-primary mt-1"
                 />
                 </div>
 
@@ -111,7 +111,7 @@ const page = () => {
                 <div>
                 <label
                     htmlFor="email"
-                    className="block text-sm font-medium text-slate-700 dark:text-slate-300"
+                    className="block text-sm font-medium text-slate-700"
                 >
                     Email Address
                 </label>
@@ -120,7 +120,7 @@ const page = () => {
                     name="email"
                     type="email"
                     placeholder="you@example.com"
-                    className="form-input block w-full rounded-lg border-slate-300 dark:border-slate-700 bg-background-light dark:bg-background-dark focus:ring-primary focus:border-primary mt-1"
+                    className="form-input block w-full rounded-lg border-slate-300 focus:ring-primary focus:border-primary mt-1"
                 />
                 </div>
 

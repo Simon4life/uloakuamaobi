@@ -2,14 +2,14 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-50 border-t border-slate-200 dark:border-slate-800">
+    <footer className="bg-gray-50 border-t border-slate-200">
         <div className="container mx-auto px-4 py-8 md:px-6">
           <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
-            <p className="text-sm text-slate-500 dark:text-slate-400">
+            <p className="text-sm text-slate-500">
               © 2025 uloakuamaobi. All rights reserved.
             </p>
             <div className="flex gap-4">
-              <a className="text-slate-500 hover:text-primary dark:text-slate-400 dark:hover:text-primary transition-colors" href="#">
+              <a className="text-slate-500 hover:text-primary transition-colors" href="#">
                 {/* Facebook */}
                 <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
                   <path clipRule="evenodd" fillRule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 
@@ -22,7 +22,7 @@ const Footer = () => {
                   22 16.991 22 12z"></path>
                 </svg>
               </a>
-              <a className="text-slate-500 hover:text-primary dark:text-slate-400 dark:hover:text-primary transition-colors" href="#">
+              <a className="text-slate-500 hover:text-primary transition-colors" href="#">
                 {/* Twitter */}
                 <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M8.29 20.251c7.547 0 11.675-6.253 
@@ -42,7 +42,7 @@ const Footer = () => {
                   0 006.29 1.84"></path>
                 </svg>
               </a>
-              <a className="text-slate-500 hover:text-primary dark:text-slate-400 dark:hover:text-primary transition-colors" href="#">
+              <a className="text-slate-500 hover:text-primary transition-colors" href="#">
                 {/* Instagram */}
                 <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
                   <path clipRule="evenodd" fillRule="evenodd" d="M12.315 

@@ -24,7 +24,7 @@ export default function Home() {
             </div>
 
             <div className="text-center md:text-left">
-              <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white">
+              <h2 className="text-4xl md:text-5xl font-bold text-gray-900">
                 Uloaku Amaobi
               </h2>
               <p className="mt-2 text-lg text-primary">
@@ -34,10 +34,10 @@ export default function Home() {
           </div>
 
           {/* About + Message */}
-          <div className="mt-16 prose-serif prose-lg max-w-none text-gray-700 dark:text-gray-300 leading-relaxed space-y-8">
+          <div className="mt-16 prose-serif prose-lg max-w-none text-gray-700 leading-relaxed space-y-8">
             {/* About */}
             <div>
-              <h3 className="text-3xl font-bold text-gray-900 dark:text-white border-b-2 border-primary/50 pb-2 mb-4">
+              <h3 className="text-3xl font-bold text-gray-900 border-b-2 border-primary/50 pb-2 mb-4">
                 About Uloaku Amaobi
               </h3>
               <p className="mb-4">

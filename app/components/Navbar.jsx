@@ -19,7 +19,7 @@ const Navbar = () => {
                 3.59 8 8-3.59 8-8 
                 8zm-1-13h2v6h-2zm0 8h2v2h-2z"></path>
             </svg>
-            <h2 className="text-xl font-bold text-slate-900 dark:text-white">
+            <h2 className="text-xl font-bold text-slate-900">
               uloakuamaobi
             </h2>
           </div>
@@ -36,7 +36,7 @@ const Navbar = () => {
           </a>
 
           {/* Mobile Menu Icon */}
-          <button onClick={() => setIsOpen(!isOpen)} className="md:hidden cursor-pointer text-slate-900 dark:text-white">
+          <button onClick={() => setIsOpen(!isOpen)} className="md:hidden cursor-pointer text-slate-900">
             <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path d="M4 6h16M4 12h16m-7 6h7" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"></path>
             </svg>
